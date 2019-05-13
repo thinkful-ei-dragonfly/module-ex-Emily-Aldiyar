@@ -1,4 +1,15 @@
-/* global shoppingList, store, api */
+import $ from 'jquery';
+import 'normalize.css';
+
+import api from './api';
+import shoppingList from './shoppingList';
+import store from './store';
+
+import './index.css';
+
+
+
+
 
 $(document).ready(function() {
   shoppingList.bindEventListeners();

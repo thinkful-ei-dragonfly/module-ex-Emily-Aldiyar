@@ -1,5 +1,7 @@
-/* global store, api, $ */
 
+import $ from jQuery;
+import api from './api';
+import store from './store'
 // eslint-disable-next-line no-unused-vars
 const shoppingList = (function(){
 
